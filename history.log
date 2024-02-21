@@ -1,0 +1,1000 @@
+ 1009  rm hostpath-operator.yaml 
+ 1010  ll
+ 1011  ll pigcha/
+ 1012  ll
+ 1013  more pigcha/install.sh 
+ 1014  ll
+ 1015  cd
+ 1016  ll
+ 1017  cd k8sg/
+ 1018  ll
+ 1019  cp /root/wordpress/ .
+ 1020  cp /root/wordpress/ . -rf
+ 1021  ll
+ 1022  git add .
+ 1023  ll
+ 1024  du
+ 1025  du -lh
+ 1026  git commit -m " inital commit"
+ 1027  git remote add k8sg/learning-k8s
+ 1028  git remote add k8sg learning-k8s
+ 1029  git push 
+ 1030  git push master
+ 1031  ll
+ 1032  git brance -M main
+ 1033  git branch -M main
+ 1034  git remote add origin https://github.com/k8sg/learning-k8s.git
+ 1035  git push -u origin main
+ 1036  cd k8sg/
+ 1037  ll
+ 1038  git push -u origin main
+ 1039  cd
+ 1040  ll
+ 1041  cd /tmp/
+ 1042  ll
+ 1043  git clone https://github.com/k8sg/openebs.git
+ 1044  pigchacli 
+ 1045  git clone https://github.com/k8sg/openebs.git
+ 1046  export https_proxy=http://127.0.0.1:15777 http_proxy=http://127.0.0.1:15777
+ 1047  git clone https://github.com/k8sg/openebs.git
+ 1048  pigchacli 
+ 1049  pigchacli --status
+ 1050  git clone https://github.com/k8sg/openebs.git
+ 1051  cd
+ 1052  git clone https://github.com/k8sg/openebs.git
+ 1053  reboot 
+ 1054  git clone https://github.com/k8sg/openebs.git
+ 1055  git clone https://mirror.ghproxy.com/https://github.com/k8sg/openebs.git
+ 1056  cd k8sg/
+ 1057  git remote add origin https://mirror.ghproxy.com/https://github.com/k8sg/learning-k8s.git
+ 1058  ll
+ 1059  ll -a
+ 1060  rm .git/
+ 1061  cd .git/
+ 1062  ll
+ 1063  git remote add origin https://mirror.ghproxy.com/https://github.com/k8sg/learning-k8s.git
+ 1064  git push -u origin main
+ 1065  cd
+ 1066  ll
+ 1067  cd openebs/
+ 1068  ll
+ 1069  git init
+ 1070  ll -a
+ 1071  cd .git/
+ 1072  ll
+ 1073  cd ..
+ 1074  ll
+ 1075  ll 
+ 1076  ll -a
+ 1077  rm .git/ -rf
+ 1078  git init
+ 1079  ll
+ 1080  ll -a
+ 1081  rm .git/ -rf
+ 1082  git remote add origin https://github.com/k8sg/openebs.git
+ 1083  git init
+ 1084  git remote add origin https://github.com/k8sg/openebs.git
+ 1085  git bracch -M main
+ 1086  git branch -M main
+ 1087  ll
+ 1088  echo openebs > openebs.log
+ 1089  ll
+ 1090  git add .
+ 1091  git push -u origin main
+ 1092  ll
+ 1093  git commit -m 
+ 1094  git commit -m "firt commit"
+ 1095  git push -u origin main
+ 1096  pigchacli 
+ 1097  git push -u origin main
+ 1098  git config --global http.proxy http://127.0.0.1:15777 && git config --global https.proxy http://127.0.0.1:15777
+ 1099  git push -u origin main
+ 1100  git remote add origin https://github.com/k8sg/openebs.git
+ 1101  cd
+ 1102  cd .ssh/
+ 1103  ll
+ 1104  more id_rsa.pub 
+ 1105  cd
+ 1106  cd k8sg/
+ 1107  git push -u origin main
+ 1108  pigchacli 
+ 1109  uname -a
+ 1110  id
+ 1111  ip a
+ 1112  cd /etc/netplan/
+ 1113  ll
+ 1114  vim 50-cloud-init.yaml 
+ 1115  kubectl get nodes 
+ 1116  kubectl get pod -n blog
+ 1117  kubectl get pod -n openebs
+ 1118  ll
+ 1119  kubectl get sv
+ 1120  kubectl get sc
+ 1121  history |grep git
+ 1122  ll
+ 1123  curl https://github.com/k8sg/openebs.git
+ 1124  kubectl get pods -n kube-system
+ 1125  kubectl get pods -n openebs
+ 1126  cd wordpress/
+ 1127  ll
+ 1128  kubectl apply -f openebs-jivavolumepolicy-demo.yaml 
+ 1129  kubectl get pods -n openebs
+ 1130  kubectl apply -f openebs-jivavolumepolicy-demo.yaml 
+ 1131  kubectl apply -f openebs-operator.yaml 
+ 1132  kubectl get pods -n openebs
+ 1133  ll
+ 1134  wget https://openebs.github.io/charts/jiva-operator.yaml
+ 1135  ll
+ 1136  kubectl apply -f jiva-operator.yaml 
+ 1137  kubectl get pods -n openebs
+ 1138  ll
+ 1139  vim jiva-operator.yaml 
+ 1140  clear
+ 1141  ll
+ 1142  kubectl get pods -n openebs
+ 1143  kubectl describe pod openebs-jiva-csi-controller-0 -n openebs
+ 1144  ll
+ 1145  vim jiva-operator.yaml jiva-operator.yaml.bak
+ 1146  cp jiva-operator.yaml jiva-operator.yaml.bak
+ 1147  cd
+ 1148  cd gcr.io_mirror/
+ 1149  ll
+ 1150  ./pull-k8s-image.sh registry.k8s.io/sig-storage/livenessprobe:v2.3.0
+ 1151  bash ./pull-k8s-image.sh registry.k8s.io/sig-storage/livenessprobe:v2.3.0
+ 1152  bash ./pull-k8s-image.sh registry.k8s.io/sig-storage/livenessprobe:v2.4.0
+ 1153  docker pull anjia0532/registry.k8s.io/sig-storage/livenessprobe:v2.4.0
+ 1154  docker pull anjia0532/registry.k8s.io/sig-storage/livenessprobe:v2.5.0
+ 1155  docker pull anjia0532/registry.k8s.io/sig-storage/livenessprobe:v2.6.0
+ 1156  docker images
+ 1157  docker images |grep 2.4
+ 1158  docker 
+ 1159  docker images |grep 2.4
+ 1160  docker save -o livenessprobeV2.4.0.tar registry.k8s.io/sig-storage/livenessprobe:v2.4.0
+ 1161  ll
+ 1162  mv livenessprobeV2.4.0.tar ../
+ 1163  ll
+ 1164  cd ..
+ 1165  ll
+ 1166  mv livenessprobeV2.4.0.tar wordpress/images/
+ 1167  cd wordpress/images/
+ 1168  ll
+ 1169  cd ..
+ 1170  ll
+ 1171  vim jiva-operator.yaml
+ 1172  ll
+ 1173  vim jiva-operator.yaml
+ 1174  kubectl apply -f jiva-operator.yaml
+ 1175  ll
+ 1176  kubectl get pod -n openebs
+ 1177  kubectl deletl pod openebs-jiva-csi-controller-0 -n openebs
+ 1178  kubectl delete pod openebs-jiva-csi-controller-0 -n openebs
+ 1179  kubectl deletl pod openebs-jiva-csi-controller-0 -n openebs
+ 1180  kubectl get pod -n openebs
+ 1181  kubectl get pod -n openebs -w
+ 1182  ssh node01
+ 1183  ll
+ 1184  kubectl get pods -n pods
+ 1185  kubectl get pods -n openebs
+ 1186  ll
+ 1187  cd wordpress/images/
+ 1188  ll
+ 1189  w
+ 1190  cd wordpress/images/
+ 1191  ll
+ 1192  kubectl get pod -n openegbs
+ 1193  kubectl get pod -n openebs
+ 1194  kubectl get pod -A
+ 1195  cd wordpress/
+ 1196  ll
+ 1197  lll
+ 1198  f
+ 1199  ll
+ 1200  kubectl apply -f openebs-operator.yaml 
+ 1201  ll
+ 1202  kubectl get pod -A
+ 1203  kubectl get pod -n openebs
+ 1204  kubectl get pod -n openebs -w
+ 1205  kubectl get pod -n openebs
+ 1206  ll
+ 1207  kubectl apply -f jiva-operator.yaml
+ 1208  kubectl get pod -n openebs
+ 1209  kubectl get svc -n openebs
+ 1210  kubectl get pvc -n openebs
+ 1211  kubectl get pv
+ 1212  kubectl delete pv pvc-118e990f-430d-46b9-b25f-e538deffb313
+ 1213  kubectl get pv
+ 1214  kubectl delete pv pvc-118e990f-430d-46b9-b25f-e538deffb313
+ 1215  kubectl delete pvc -n openebs
+ 1216  kubectl delete pv -n openebs
+ 1217  kubectl get pv -n openebs
+ 1218  kubectl get pvc -n openebs
+ 1219  kubectl get pods -n openebs
+ 1220  kubectl get pvc -n openebs
+ 1221  kubectl get pvc
+ 1222  kubectl get pv
+ 1223  kubectl get pv -w
+ 1224  kubectl delete pv pvc-135bcd3e-b27e-4725-9507-061d7246c835 --force --grace-period=0
+ 1225  kubectl get pv -w
+ 1226  kubectl delete pv pvc-135bcd3e-b27e-4725-9507-061d7246c835 --force --grace-period=0
+ 1227  kubectl get pv -w
+ 1228  kubectl delete pv pvc-bf37b54c-b554-4c96-9b43-540895691475 --force --grace-period=0
+ 1229  kubectl get pv -w
+ 1230  kubectl get pv 
+ 1231  kubectl get pod -n openebs
+ 1232  reboot 
+ 1233  kubectl get pod -n openebs
+ 1234  reboot 
+ 1235  ll
+ 1236  cd learning-k8s/helm-examples/
+ 1237  ll
+ 1238  cd W
+ 1239  cd wordpress/
+ 1240  ll
+ 1241  more README.md 
+ 1242  
+ 1243  exit
+ 1244  ll
+ 1245  cd wordpress/
+ 1246  ll
+ 1247  cd 
+ 1248  cd learning-k8s/
+ 1249  cd helm-examples/
+ 1250  ll
+ 1251  more wordpress/README.md 
+ 1252  exit
+ 1253  cd learning-k8s/OpenEBS/
+ 1254  ll
+ 1255  cd nfs-pv/
+ 1256  ll
+ 1257  cd ..
+ 1258  ll
+ 1259  cd jiva-csi/
+ 1260  ll
+ 1261  cd ..
+ 1262  ll
+ 1263  cd local-pv-lvm/
+ 1264  ll
+ 1265  cd ..
+ 1266  ll local-pv-hostpath/
+ 1267  ll
+ 1268  cd local-pv-hostpath/
+ 1269  ll
+ 1270  Q
+ 1271  exit
+ 1272  kubectl get pod -n openebs
+ 1273  kubectl get pv
+ 1274  pvc
+ 1275  pv
+ 1276  history 
+ 1277  kubectl get jivavolumes
+ 1278  kubectl get jv -A
+ 1279  kubectl get sc
+ 1280  kubectl delete sc openebs-rwx
+ 1281  kubectl get sc
+ 1282  kubectl delete sc nfs-csi
+ 1283  kubectl get sc\
+ 1284  kubectl get 
+ 1285  kubectl delete sc openebs-jiva-csi
+ 1286  ll
+ 1287  kubectl get sc
+ 1288  kubectl delete sc openebs-device
+ 1289  kubectl delete sc openebs-hostpath
+ 1290  kubectl get sc
+ 1291  cd wordpress/
+ 1292  ll
+ 1293  kubectl apply openebs-operator.yaml 
+ 1294  kubectl apply -f openebs-operator.yaml 
+ 1295  kubectl get sc
+ 1296  kubectl apply -f jiva-operator.yaml
+ 1297  kubectl get sc
+ 1298  ll
+ 1299  mv jiva-operator.yaml.bak jiva-operator.yaml.V2.3.0
+ 1300  ll
+ 1301  mv jiva-operator.yaml.V2.3.0 images/
+ 1302  ll
+ 1303  vim openebs-jivavolumepolicy-demo.yaml 
+ 1304  kubectl apply -f openebs-jivavolumepolicy-demo.yaml 
+ 1305  kubectl get jivavolumepolicies -n openebs
+ 1306  ll
+ 1307  vim openebs-jivavolumepolicy-demo.yaml 
+ 1308  ll
+ 1309  kubectl get jivavolumepolicies -n openebs
+ 1310  ll
+ 1311  ll images/
+ 1312  ll
+ 1313  kubectl get jivavolumepolicies -n openebs
+ 1314  kubectl get svc -n openebs
+ 1315  kubectl get sc
+ 1316  helm install my-release oci://registry-1.docker.io/bitnamicharts/wordpress
+ 1317  snap install helm
+ 1318  apt update
+ 1319  snap install helm
+ 1320  apt install helm
+ 1321  helm install my-release oci://registry-1.docker.io/bitnamicharts/wordpress
+ 1322  cd
+ 1323  ll
+ 1324  mkdir helm
+ 1325  cd helm/
+ 1326  ll
+ 1327  wget https://artifacthub.io/packages/helm/bitnami/wordpress
+ 1328  ll
+ 1329  snap install helm
+ 1330  curl -LO https://get.helm.sh/helm-v3.14.0-linux-amd64.tar.gz
+ 1331  pigchacli 
+ 1332  curl -LO https://get.helm.sh/helm-v3.14.0-linux-amd64.tar.gz
+ 1333  export https_proxy=http://127.0.0.1:15777 http_proxy=http://127.0.0.1:15777
+ 1334  curl -LO https://get.helm.sh/helm-v3.14.0-linux-amd64.tar.gz
+ 1335  kubectl get no
+ 1336  unset https_proxy http_proxy
+ 1337  kubectl get no
+ 1338  ll
+ 1339  tar xf helm-v3.14.0-linux-amd64.tar.gz 
+ 1340  ll
+ 1341  ll linux-amd64/
+ 1342  cp linux-amd64/helm /usr/local/bin/
+ 1343  helm
+ 1344  pigchacli 
+ 1345  cd
+ 1346  helm seach wordpress
+ 1347  helm search wordpress
+ 1348  helm search hub wordpress
+ 1349  helm search 
+ 1350  ll
+ 1351  history 
+ 1352  kubectl get sc
+ 1353  find / -name openebs-jiva-csi-storageclass.yaml
+ 1354  ll
+ 1355  cd wordpress/
+ 1356  ll
+ 1357  cp /root/learning-k8s/OpenEBS/jiva-csi/openebs-jiva-csi-storageclass.yaml .
+ 1358  ll
+ 1359  kubectl apply -f openebs-jiva-csi-storageclass.yaml 
+ 1360  kubectl get sc
+ 1361  kubectl get pv
+ 1362  kubectl get pvc
+ 1363  helm install wordpress         --set mariadb.enabled=false         --set externalDatabase.host=mysql.blog.svc.cluster.local         --set externalDatabase.user=wpuser         --set externalDatabase.password='magedu.com'         --set externalDatabase.database=wpdb         --set externalDatabase.port=3306         --set persistence.storageClass=nfs-csi         --set wordpressUsername=admin         --set wordpressPassword='magedu.com'         bitnami/wordpress         -n blog --create-namespace
+ 1364  helm install mysql          --set auth.rootPassword=MageEdu         --set global.storageClass=nfs-csi         --set architecture=replication         --set auth.database=wpdb         --set auth.username=wpuser         --set auth.password='magedu.com'         --set secondary.replicaCount=1         --set auth.replicationPassword='replpass'         bitnami/mysql         -n blog
+ 1365  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 1366  pigchacli 
+ 1367  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 1368  git config --global http.proxy http://127.0.0.1:15777 && git config --global https.proxy http://127.0.0.1:15777
+ 1369  export https_proxy=http://127.0.0.1:15777 http_proxy=http://127.0.0.1:15777
+ 1370  helm repo add bitnami https://charts.bitnami.com/bitnami
+ 1371  helm install mysql          --set auth.rootPassword=MageEdu         --set global.storageClass=nfs-csi         --set architecture=replication         --set auth.database=wpdb         --set auth.username=wpuser         --set auth.password='magedu.com'         --set secondary.replicaCount=1         --set auth.replicationPassword='replpass'         bitnami/mysql         -n blog
+ 1372  kubectl get no
+ 1373  unset https_proxy http_proxy
+ 1374  kubectl get no
+ 1375  helm install mysql          --set auth.rootPassword=MageEdu         --set global.storageClass=nfs-csi         --set architecture=replication         --set auth.database=wpdb         --set auth.username=wpuser         --set auth.password='magedu.com'         --set secondary.replicaCount=1         --set auth.replicationPassword='replpass'         bitnami/mysql         -n blog
+ 1376  kubectl get pod
+ 1377  kubectl get pod -n blog
+ 1378  kubectl get all -n blog
+ 1379  kubectl get pvc -n blog
+ 1380  kubectl get sc
+ 1381  kubectl get pod -n openebs
+ 1382  kubectl get sc
+ 1383  kubectl get pv
+ 1384  kubectl get pvc
+ 1385  kubectl get pvc -nopenebs
+ 1386  kubectl get pvc -n openebs
+ 1387  kubectl get pvc -n blog
+ 1388  kubectl get pod -n blog
+ 1389  kubectl describe pod mysql-primary-0
+ 1390  kubectl describe pod mysql-primary-0 -n blog
+ 1391  kubectl get pod -n blog
+ 1392  kubectl get pod -n blog -owide
+ 1393  kubectl get sc
+ 1394  kubectl get pod -n blog -owide
+ 1395  kubectl get pod -n blog -w
+ 1396  kubectl delete pod mysql-secondary-0
+ 1397  kubectl delete pod mysql-secondary-0 -n blog
+ 1398  kubectl get pod -n blog -w
+ 1399  kubectl describe pod mysql-secondary-0
+ 1400  kubectl describe pod mysql-secondary-0 -n blog
+ 1401  kubectl get sc
+ 1402  kubectl describe pod mysql-secondary-0 -n blog
+ 1403  kubectl get sc
+ 1404  kubectl get pod -n blog -w
+ 1405  ll
+ 1406  kubectl get pod -n blog -w
+ 1407  kubectl get sv
+ 1408  kubectl get sc
+ 1409  kubectl get pv
+ 1410  kubectl get pvc -n blog
+ 1411  ll
+ 1412  vim nfs-csi-storageclass.yaml 
+ 1413  ll
+ 1414  vim openebs-jiva-csi-storageclass.yaml 
+ 1415  ll
+ 1416  vimn openebs-jivavolumepolicy-demo.yaml 
+ 1417  vim openebs-jivavolumepolicy-demo.yaml
+ 1418  ll
+ 1419  vim jiva-operator.yaml 
+ 1420  kubectl get pvc -n blog
+ 1421  kubectl get pv
+ 1422  ll
+ 1423  vim jiva-operator.yaml 
+ 1424  ll
+ 1425  vim nfs-csi-storageclass.yaml 
+ 1426  vim nfs-operator.yaml 
+ 1427  more nfs-operator.yaml |grep G
+ 1428  ll
+ 1429  vim openebs-jivavolumepolicy-demo.yaml 
+ 1430  vim openebs-jiva-csi-storageclass.yaml 
+ 1431  kubectl get sc
+ 1432  history 
+ 1433  heml
+ 1434  helm
+ 1435  helm uninstall mysql
+ 1436  helm uninstall mysql -n blog
+ 1437  kubectl get all -n blog
+ 1438  kubectl get pod -n blog
+ 1439  kubectl get pvc -n blog
+ 1440  kubectl delete pvc data-mysql-primary-0 -n blog
+ 1441  kubectl delete pvc data-mysql-secondary-0 -n blog
+ 1442  kubectl get pvc -n blog
+ 1443  kubectl delete pvc data-mysql-2 -n blog
+ 1444  kubectl get pvc -n blog
+ 1445  kubectl delete pvc data-mysql-1 -n blog
+ 1446  kubectl delete pvc data-mysql-0 -n blog
+ 1447  kubectl get pvc -n blog
+ 1448  kubectl get pd -n blog
+ 1449  kubectl get all -n blog
+ 1450  helm install mysql          --set auth.rootPassword='MageEdu'         --set global.storageClass=openebs-hostpath         --set architecture=replication         --set auth.database=wpdb         --set auth.username=wpuser         --set auth.password='magedu.com'         --set secondary.replicaCount=1         --set auth.replicationPassword='replpass'         oci://registry-1.docker.io/bitnamicharts/mysql         -n blog --create-namespace
+ 1451  kubectl get pvc -n blog
+ 1452  kubectl get all -n blog
+ 1453  kubectl get pod -n blog
+ 1454  kubectl get pod -n blog -w
+ 1455  kubectl get pod -n blog 
+ 1456  kubectl describe pod mysql-primary-0 -n blog
+ 1457  kubectl get pod -n blog 
+ 1458  kubectl get pod -n blog -w -owide
+ 1459  kubectl get pod -n blog 
+ 1460  kubectl get pv -n blog 
+ 1461  kubectl get pvc -n blog 
+ 1462  mysql -h mysql-primary.blog.svc.cluster.local -uroot -p
+ 1463  kubectl get pv -n blog 
+ 1464  helm list -n blog
+ 1465  helm get
+ 1466  helm get 
+ 1467  q
+ 1468  helm get node
+ 1469  helm get notes
+ 1470  helm get notes -n blog
+ 1471  helm get notes mysql -n blog
+ 1472  helm get m mysql -n blog
+ 1473  helm get all mysql -n blog
+ 1474  helm get hooks mysql -n blog
+ 1475  helm get manifest mysql -n blog
+ 1476  helm get metadata mysql -n blog
+ 1477  helm get values mysql -n blog
+ 1478  helm install wordpress             --set mariadb.enabled=false \ 
+ 1479  helm install wordpress             --set mariadb.enabled=false \ 
+ 1480  helm install wordpress             --set mariadb.enabled=false \ 
+ 1481  helm install wordpress --set mariadb.enabled=false --set externalDatabase.host=mysql-primary.blog.svc.cluster.local --set externalDatabase.user=wpuser --set externalDatabase.password='magedu.com' --set externalDatabase.database=wpdb --set externalDatabase.port=3306 --set persistence.storageClass=openebs-rwx  --set ingress.enabled=true --set ingress.ingressClassName=nginx --set ingress.hostname=blog.magedu.com --set ingress.pathType=Prefix  --set wordpressUsername=admin --set wordpressPassword='magedu.com'   oci://registry-1.docker.io/bitnamicharts/wordpress
+ 1482  kubectl get pod
+ 1483  helm uninstall wordpress
+ 1484  kubectl get pod
+ 1485  helm install wordpress --set mariadb.enabled=false --set externalDatabase.host=mysql-primary.blog.svc.cluster.local --set externalDatabase.user=wpuser --set externalDatabase.password='magedu.com' --set externalDatabase.database=wpdb --set externalDatabase.port=3306 --set persistence.storageClass=openebs-rwx  --set ingress.enabled=true --set ingress.ingressClassName=nginx --set ingress.hostname=blog.magedu.com --set ingress.pathType=Prefix  --set wordpressUsername=admin --set wordpressPassword='magedu.com'   oci://registry-1.docker.io/bitnamicharts/wordpress -n blog
+ 1486  ;
+ 1487  kubectl get pod
+ 1488  kubectl get pod -n blog
+ 1489  kubectl describe pod wordpress-56fc49f494-k7cvw -n blog
+ 1490  kubectl get sv
+ 1491  kubectl get sc
+ 1492  find /root/learning-k8s/ -name *rwx*
+ 1493  ll
+ 1494  su - root
+ 1495  ll
+ 1496  wget https://openebs.github.io/charts/nfs-operator.yaml
+ 1497  ll
+ 1498  rm nfs-operator.yaml.1 
+ 1499  ll
+ 1500  kubectl get sv
+ 1501  kubectl get sc
+ 1502  kubectl apply -f nfs-operator.yaml 
+ 1503  kubectl get sc
+ 1504  kubectl get pv
+ 1505  kubectl get pvc -n blog
+ 1506  kubectl get pod -n blog
+ 1507  kubectl describe pod wordpress-56fc49f494-k7cvw -n blog
+ 1508  kubectl get sc
+ 1509  kubectl get pod -n blog
+ 1510  kubectl delete pod wordpress-56fc49f494-k7cvw -n blog
+ 1511  kubectl get pod -n blog
+ 1512  kubectl describe pod wordpress-56fc49f494-k7cvw -n blog
+ 1513  kubectl get pod -n blog
+ 1514  kubectl describe pod wordpress-56fc49f494-r5cvd -n blog
+ 1515  helm uninstall wordpress -n blog
+ 1516  helm install wordpress --set mariadb.enabled=false --set externalDatabase.host=mysql-primary.blog.svc.cluster.local --set externalDatabase.user=wpuser --set externalDatabase.password='magedu.com' --set externalDatabase.database=wpdb --set externalDatabase.port=3306 --set persistence.storageClass=openebs-hostpath  --set ingress.enabled=true --set ingress.ingressClassName=nginx --set ingress.hostname=blog.magedu.com --set ingress.pathType=Prefix  --set wordpressUsername=admin --set wordpressPassword='magedu.com'   oci://registry-1.docker.io/bitnamicharts/wordpress -n blog
+ 1517  kubectl get pod -n blog
+ 1518  kubectl get pv
+ 1519  kubectl get pod -n blog
+ 1520  kubectl get pvc -n blog
+ 1521  kubectl get pod -n blog
+ 1522  kubectl describe pod wordpress-56fc49f494-qlfps -n blog
+ 1523  kubectl get pod -n blog -w
+ 1524  kubectl get pod -n blog
+ 1525  kubectl get all -n blog
+ 1526  curl 10.105.91.63
+ 1527  curl -I 10.105.91.63
+ 1528  curl 10.105.91.63
+ 1529  helm repo add harbor https://helm.goharbor.io
+ 1530  helm repo list
+ 1531  helm search repo harbor
+ 1532  ll
+ 1533  ssh node01
+ 1534  ssh node02
+ 1535  ssh node03
+ 1536  helm uninstall wordpress -n blog
+ 1537  helm install wordpress --set mariadb.enabled=false --set externalDatabase.host=mysql-primary.blog.svc.cluster.local --set externalDatabase.user=wpuser --set externalDatabase.password='magedu.com' --set externalDatabase.database=wpdb --set externalDatabase.port=3306 --set persistence.storageClass=openebs-rwx  --set ingress.enabled=true --set ingress.ingressClassName=nginx --set ingress.hostname=blog.magedu.com --set ingress.pathType=Prefix  --set wordpressUsername=admin --set wordpressPassword='magedu.com'   oci://registry-1.docker.io/bitnamicharts/wordpress -n blog
+ 1538  kubectl get pod -n blog
+ 1539  kubectl get pvc -n blog
+ 1540  kubectl get pv -n blog
+ 1541  kubectl get pod -n blog
+ 1542  kubectl get pv -n blog
+ 1543  ll /root/learning-k8s/helm-examples/harbor/harbor-values.yaml 
+ 1544  helm install harbor -f /root/learning-k8s/helm-examples/harbor/harbor-values.yaml harbor/harbor -n harbor
+ 1545  helm install harbor -f /root/learning-k8s/helm-examples/harbor/harbor-values.yaml harbor/harbor -n harbor --create-namespace
+ 1546  kubectl get pod -n harbor
+ 1547  kubectl get pvc -n harbor
+ 1548  kubectl get pvc -n blog
+ 1549  kubectl get pod -n blog
+ 1550  kubectl get pvc -n blog
+ 1551  kubectl get pod -n harbor
+ 1552  kubectl get pod -n harbor -w
+ 1553  l
+ 1554  kubectl get pod -n harbor 
+ 1555  kubectl get ingress -n blog
+ 1556  curl blog.magedu.com
+ 1557  kubectl get pod -n harbor 
+ 1558  kubectl describe pod harbor-core-5f5c7879f4-dfjpp
+ 1559  kubectl describe pod harbor-core-5f5c7879f4-dfjpp -n harbor
+ 1560  kubectl get pod -n harbor 
+ 1561  kubectl describe pod harbor-database-0 -n harbor
+ 1562  kubectl get pod -n harbor 
+ 1563  kubectl get pvc -n harbor 
+ 1564  kubectl get sc
+ 1565  kubectl get pv -n harbor 
+ 1566  kubectl get sc
+ 1567  kubectl get pv
+ 1568  cd learning-k8s/
+ 1569  cd helm-examples/
+ 1570  ll
+ 1571  cd wordpress/
+ 1572  cd ..
+ 1573  ll
+ 1574  cd wordpress/
+ 1575  ll
+ 1576  cd ..
+ 1577  tree 
+ 1578  ll
+ 1579  cd wordpress/
+ 1580  ll
+ 1581  q
+ 1582  cd
+ 1583  ll
+ 1584  cd learning-k8s/
+ 1585  ll
+ 1586  cd o
+ 1587  cd OpenE
+ 1588  cd OpenEBS/
+ 1589  ll
+ 1590  cd jiva-csi/
+ 1591  ll
+ 1592  kubectl apply -f openebs-jiva-csi-pvc.yaml
+ 1593  kubectl apply -f openebs-jiva-csi-storageclass.yaml 
+ 1594  ll
+ 1595  su - root
+ 1596  ll
+ 1597  find . -name nfs
+ 1598  find . -name *nfs*
+ 1599  su - root
+ 1600  find / -name *nfs-csi*
+ 1601  pwd
+ 1602  cd
+ 1603  cd wordpress/
+ 1604  ll
+ 1605  cp /root/learning-k8s/csi-driver-nfs/nfs-csi-storageclass.yaml .
+ 1606  ll
+ 1607  cp /root/learning-k8s/csi-driver-nfs/nfs-csi-storageclass.yaml .
+ 1608  ll
+ 1609  kubectl apply -f nfs-csi-storageclass.yaml 
+ 1610  ll
+ 1611  pwd
+ 1612  ll
+ 1613  cd
+ 1614  cd learning-k8s/helm-examples/
+ 1615  ll
+ 1616  cd wordpress/
+ 1617  ll
+ 1618  more README.md 
+ 1619  clear
+ 1620  cd
+ 1621  helm histort wordpress -n blog
+ 1622  helm history wordpress -n blog
+ 1623  kubectl get all -A
+ 1624  kubectlget pods -n harbor
+ 1625  kubectl get pods -n harbor
+ 1626  pigchacli 
+ 1627  kubectl get pods -n harbor
+ 1628  kubectl describe pod harbor-trivy-0 -n harbor
+ 1629  kubectl describe pvc harbor-trivy-0 -n harbor
+ 1630  kubectl get pvc  -n harbor
+ 1631  kubectl describe pvc data-harbor-trivy-0 -n harbor
+ 1632  kubectl get pv
+ 1633  kubectl get pv -owide
+ 1634  kubectl get sc pv
+ 1635  kubectl get sc -owide
+ 1636  kubectl describe pvc data-harbor-trivy-0 -n harbor
+ 1637  cd learning-k8s/examples/pods/
+ 1638  ll
+ 1639  more pod-demo
+ 1640  more pod-demo.yaml 
+ 1641  pigchacli 
+ 1642  ssh node01
+ 1643  k get no
+ 1644  kubectl get no
+ 1645  alias k=kubectl
+ 1646  apt list all |grep bash-com
+ 1647  apt update
+ 1648  apt list all |grep bash-com
+ 1649  apt list all 
+ 1650  apt list 
+ 1651  apt list |grep bash-com
+ 1652  kubectl completion bash
+ 1653  complete -o default -F __start_kubectl k
+ 1654  source <(kubectl completion bash)
+ 1655  k get nodes k8s-
+ 1656  k get nodes 
+ 1657  k get all -n kube-flannel
+ 1658  k get po
+ 1659  k get po -n kube-fflannel
+ 1660  k get pods -n kube-fflannel
+ 1661  k get pods -n kube-flannel
+ 1662  ll
+ 1663  cd learning-k8s/ansible-k8s-install/
+ 1664  ll
+ 1665  k get pods -n kube-flannel
+ 1666  cd learning-k8s/ansible-k8s-install/
+ 1667  ll
+ 1668  ssh node01
+ 1669  k get pod
+ 1670  k get pod -o wide
+ 1671  k get pod -o wide -A
+ 1672  k get ns
+ 1673  k get pod -o wide -n kube-flannel
+ 1674  k get ns
+ 1675  ssh node01
+ 1676  kubectl create deployment demoapp --image=ikubenetes:demoapp:v1 
+ 1677  k get po
+ 1678  k get po -owide
+ 1679  kubectl create deployment demoapp --image=ikubernetes:demoapp:v1 
+ 1680  k delete deployments.apps/demoapp 
+ 1681  kubectl create deployment demoapp --image=ikubernetes:demoapp:v1 
+ 1682  k get po -owide
+ 1683  k delete deployments.apps/demoapp 
+ 1684  kubectl create deployment demoapp --image=ikubernetes/demoapp:v1.0 
+ 1685  k get po -owide
+ 1686  kubectl create deployment demoapp --image=ikubernetes/demoapp:v1.0 
+ 1687  k get deployments.apps 
+ 1688  k get pod
+ 1689  k get deployments.apps 
+ 1690  k get deployments 
+ 1691  k describe deployments.apps/demoapp 
+ 1692  k get pod
+ 1693  k scale deployments.apps/demoapp --replicas=3
+ 1694  k get pod
+ 1695  k top no
+ 1696  k get no
+ 1697  k logs pod/demoapp-7c58cd6bb-4fxd6 demoapp 
+ 1698  k describe pod/demoapp-7c58cd6bb-4fxd6 demoapp 
+ 1699  k get deployments.apps 
+ 1700  k get od
+ 1701  k get po
+ 1702  k get po -owide
+ 1703  k get po -owide -w
+ 1704  k get po -owide
+ 1705  cd
+ 1706  k get pod -owide
+ 1707  curl 10.244.1.73
+ 1708  ssh node03
+ 1709  k get node
+ 1710  kubectl get nodes
+ 1711  kubectl get po
+ 1712  kubectl get po -owide
+ 1713  kubectl exec -it demoapp-7c58cd6bb-fpqw2 -- /bin/bash
+ 1714  kubectl exec -it demoapp-7c58cd6bb-fpqw2 -- /bin/sh
+ 1715  curl 10.244.1.73
+ 1716  ip a
+ 1717  ip a |grep inet
+ 1718  ip a
+ 1719  ll
+ 1720  cd k8sg/
+ 1721  ll
+ 1722  cd wordpress/
+ 1723  ll
+ 1724  cd
+ 1725  ll
+ 1726  cd helm/
+ 1727  ll
+ 1728  l
+ 1729  ll
+ 1730  cd ..
+ 1731  ll
+ 1732  ssh node01
+ 1733  l
+ 1734  ll
+ 1735  mkdir baidupan
+ 1736  cd baidupan
+ 1737  ll
+ 1738  wget https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1739  ll
+ 1740  curl ll
+ 1741  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1742  ll
+ 1743  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1744  wget 
+ 1745  wget --help
+ 1746  wget --help |grep no
+ 1747  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb  --no-check-certificate
+ 1748  wget  --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1749  ll
+ 1750  setenforce
+ 1751  get setenforce
+ 1752  getenforce
+ 1753  apt install selinux-utils
+ 1754  getenforce 
+ 1755  setenforce 0
+ 1756  wget  --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1757  apt install openssh
+ 1758  apt install openssl
+ 1759  wget  --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1760  rz
+ 1761  apt install lrzsz
+ 1762  rz
+ 1763  ll
+ 1764  tree
+ 1765  ll
+ 1766  cd wordpress/
+ 1767  ll
+ 1768  cd images/
+ 1769  ll
+ 1770  cd ..
+ 1771  ll
+ 1772  cd
+ 1773  ll
+ 1774  ll helm/
+ 1775  ll k8sg/
+ 1776  ll k8sg/wordpress/
+ 1777  ll k8sg/wordpress/images/
+ 1778  cd k8sg/
+ 1779  tree 
+ 1780  lll
+ 1781  cd baidupan/
+ 1782  ll
+ 1783  wget https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1784  wget  --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1785  wget --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1786  date
+ 1787  wget --no-check-certificate https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb 
+ 1788  wget https://www.nginx.org./download/nginx-1.24.0.tar.gz
+ 1789  ll
+ 1790  wget https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_x86_64.rpm
+ 1791  ll
+ 1792  cd
+ 1793  ll
+ 1794  k 
+ 1795  kubectl get ds -n kube-flannel
+ 1796  kubectl get pod -n kube-flannel
+ 1797  kubectl get ds/kube-flannel-ds  -n kube-flannel
+ 1798  kubectl get ds/kube-flannel-ds  -n kube-flannel -oyaml
+ 1799  kubectl get ds/kube-flannel-ds  -n kube-flannel 
+ 1800  kubectl get ds -n kube-flannel
+ 1801  kubectl 
+ 1802  kubectl |grep out
+ 1803  kubectl rollout ds/kube-flannel-ds
+ 1804  kubectl rollout restart ds/kube-flannel-ds
+ 1805  kubectl rollout restart ds/kube-flannel
+ 1806  kubectl rollout restart ds/kube-flannel -n kube-flannel
+ 1807  kubectl get ds -n kube-flannel
+ 1808  kubectl rollout restart ds/kube-flannel-ds -n kube-flannel
+ 1809  kubectl get ds -n kube-flannel
+ 1810  kubectl get ds kube-flannel-ds -n kube-flannel
+ 1811  kubectl get pod -n kube-flannel
+ 1812  top
+ 1813  ssh node01
+ 1814  kubectl get pod -A
+ 1815  cd openebs/
+ 1816  ll
+ 1817  cd
+ 1818  ll
+ 1819  cd wordpress/
+ 1820  ll
+ 1821  kubectl delete -f openebs-operator.yaml 
+ 1822  ll
+ 1823  kubectl delete -f openebs-jiva
+ 1824  kubectl delete -f jiva-operator.yaml 
+ 1825  kubectl get pod -A
+ 1826  k get ns
+ 1827  kubectl get ns
+ 1828  kubectl delete ns/bl
+ 1829  kubectl delete ns/blog
+ 1830  apt list |grep bash=co
+ 1831  apt list bash-co
+ 1832  apt update
+ 1833  source <(kubectl completion bash)
+ 1834  kubectl get cm
+ 1835  kubectl get cm -n flannel
+ 1836  kubectl get cm -n kube-flannel
+ 1837  kubectl api-resources |grep cm
+ 1838  ll
+ 1839  kubectl api-resources |grep cm
+ 1840  kubectl get cm -n kube-flannel
+ 1841  kubectl get cm/kube-flannel-cfg -n kube-flannel
+ 1842  kubectl get cm/kube-flannel-cfg -n kube-flannel -oyaml
+ 1843  kubectl get cm/kube-flannel-cfg -n kube-flannel -oyaml > kube-flannel-cfg.yaml
+ 1844  more kube-flannel-cfg.yaml
+ 1845  more kube-flannel-cfg.yamlql
+ 1846  ll
+ 1847  more kube-flannel.yml 
+ 1848  rm kube-flannel.yml
+ 1849  ll
+ 1850  kubectl get ds -n kube-flannel 
+ 1851  kubectl get ds/kube-flannel-ds -n kube-flannel
+ 1852  kubectl rollout restart ds/kube-flannel-ds -n kube-flannel
+ 1853  kubectl get pod -nkube-flannel
+ 1854  history |grep cur
+ 1855  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdiska_4.17.7_amd64.deab
+ 1856  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1857  curl -LO  https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1858  ll
+ 1859  curl -LO --no-check-certificate  https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1860  wget -LO --no-check-certificate  https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb
+ 1861  curl https://pkg-ant.baidu.com/issue/netdisk/LinuxGuanjia/4.17.7/baidunetdisk_4.17.7_amd64.deb -O
+ 1862  ll
+ 1863  kubectl get ippools
+ 1864  kubectl get ippools -A
+ 1865  ll
+ 1866  ssh 114.116.211.234
+ 1867  ssh root@114.116.211.234
+ 1868  lftp 114.116.211.234
+ 1869  apt install lftp
+ 1870  ll
+ 1871  rm --no-preserve-root 
+ 1872  ll
+ 1873  rm -rf --no-preserve-root 
+ 1874  ll
+ 1875  ll baidupan/
+ 1876  rmdir baidupan/ -rf
+ 1877  rm baidupan/ -rf
+ 1878  ll
+ 1879  ll gcr.io_mirror/
+ 1880  ll helm/
+ 1881  mkdir ftp
+ 1882  mv hostpath-operator.yaml kube-flannel-cfg.yaml ftp/
+ 1883  ll
+ 1884  ll k8sg/
+ 1885  ll k8sg/wordpress/
+ 1886  mv k8sg/wordpress/ ftp/
+ 1887  ll
+ 1888  mv openebs/ wordpress/ ftp/
+ 1889  mv openebs/  ftp/
+ 1890  ll
+ 1891  ll ftp/
+ 1892  ll
+ 1893  ll snap/
+ 1894  ll snap/lxd/
+ 1895  ll snap/lxd/26975/
+ 1896  ll
+ 1897  mv wordpress/ ftp/
+ 1898  ll
+ 1899  ll wordpress/
+ 1900  ll ftp/
+ 1901  ll
+ 1902  mv wordpress/ wordpress2
+ 1903  ll
+ 1904  mv wordpress2/ ftp/
+ 1905  ll
+ 1906  tar zcvf ftp.tar.gz ftp/
+ 1907  ll
+ 1908  ll -lh 
+ 1909  vim 1.txt
+ 1910  scp 1.txt root@114.116.211.234:/tmp
+ 1911  scp 1.txt root@node01:/tmp
+ 1912  vim /etc/hosts.allow 
+ 1913  systemctl status sshd
+ 1914  systemctl restart sshd
+ 1915  scp 1.txt root@114.116.211.234:/tmp
+ 1916  vim /etc/hosts.allow 
+ 1917  more /etc/hosts.allow
+ 1918  systemctl restart sshd
+ 1919  scp 1.txt root@114.116.211.234:/tmp
+ 1920  ssh 114.116.211.234
+ 1921  ll /etc/hosts.deny 
+ 1922  more /etc/hosts.deny
+ 1923  more /etc/hosts.allow 
+ 1924  vim /etc/hosts.allow
+ 1925  ~
+ 1926  vim /etc/hosts.allow
+ 1927  systemctl restart sshd
+ 1928  scp 1.txt root@114.116.211.234:/tmp
+ 1929  vim /etc/hosts.allow
+ 1930  systemctl restart sshd
+ 1931  scp 1.txt root@114.116.211.234:/tmp
+ 1932  ll
+ 1933  mkdir test
+ 1934  cd test/
+ 1935  ll
+ 1936  git init
+ 1937  ll
+ 1938  ll -a
+ 1939  cp ../ftp.tar.gz 
+ 1940  cp ../ftp.tar.gz .
+ 1941  ll
+ 1942  rm ftp.tar.gz 
+ 1943  touch test.txt
+ 1944  vim test.txt
+ 1945  ll
+ 1946  ll -a
+ 1947  git add .
+ 1948  git commit -m "fist commit"
+ 1949  git remote add origin git@github.com:k8sg/vftp.git
+ 1950  git push -u origin master
+ 1951  git remote add origin https://github.com/k8sg/vftp.git
+ 1952  ll
+ 1953  ll -a
+ 1954  cd ..
+ 1955  ll
+ 1956  rm test/ -rf
+ 1957  ll
+ 1958  mkdir git1
+ 1959  cd git1/
+ 1960  ll
+ 1961  git init 
+ 1962  vim 1.txt
+ 1963  git add .
+ 1964  git commit -m "1"
+ 1965  ll
+ 1966  git remote add origin https://github.com/k8sg/vftp.git
+ 1967  git push -u origin master
+ 1968  ll
+ 1969  cd test/
+ 1970  ll
+ 1971  cd f
+ 1972  cd
+ 1973  cd ftp/
+ 1974  ll
+ 1975  more hostpath-operator.yaml 
+ 1976  ll
+ 1977  ll openebs/
+ 1978  more openebs/openebs.log 
+ 1979  rm openebs/ -rf
+ 1980  ll
+ 1981  tree
+ 1982  ll
+ 1983  ll wordpress
+ 1984  ll wordpress/images/
+ 1985  ll wordpress2/images/
+ 1986  ll
+ 1987  ll wordpress
+ 1988  ll wordpress2/
+ 1989  cd wordpress2/
+ 1990  ll
+ 1991  ll pigcha/
+ 1992  more images/
+ 1993  ll pigcha/install.sh 
+ 1994  more pigcha/install.sh 
+ 1995  ll
+ 1996  cd ftp/
+ 1997  ll
+ 1998  cp hostpath-operator.yaml kube-flannel-cfg.yaml ../k8sg/
+ 1999  cd wordpress
+ 2000  cd ../wordpress2/
+ 2001  ll
+ 2002  ll *.yaml
+ 2003  cp *.yaml /root/k8sg/wordpress/
+ 2004  ll
+ 2005  ll images/
+ 2006  cp images/jiva-operator.yaml.V2.3.0 /root/k8sg/wordpress/
+ 2007  cd
+ 2008  history > history.log
